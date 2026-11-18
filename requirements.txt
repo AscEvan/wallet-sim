@@ -1,0 +1,14 @@
+# --- Kripto & derivasi kunci ------------------------------------------------
+mnemonic>=0.21.0          # BIP39: generate / validasi / seed phrase
+# BIP32>=5.0.0              # BIP32: hierarchical deterministic derivation
+coincurve>=21.0.0         # secp256k1: sign & verify (gantikan ecdsa)
+base58>=2.1.1             # encoding Base58 (P2PKH-style address)
+pycryptodome>=3.23.0      # keccak-256 (dipakai Ethereum-style addressing)
+cryptography>=42.0.0      # Fernet + PBKDF2 untuk keystore terenkripsi
+
+# --- Utilitas ---------------------------------------------------------------
+python-dotenv>=1.0.1      # baca .env (opsional)
+requests>=2.31.0          # HTTP client untuk harga coin (opsional)
+
+# --- Testing ----------------------------------------------------------------
+pytest>=8.0.0

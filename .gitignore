@@ -1,0 +1,44 @@
+# --- Secrets ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Runtime data (keystore, ledger, cache harga) ---------------------------
+data/
+
+# --- Legacy / eksperimen lama (arsip, tidak versioned) --------------------
+gemini/
+claude/
+_archive/
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# --- Editor / IDE -----------------------------------------------------------
+.vscode/
+
+# --- Sistem ----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini

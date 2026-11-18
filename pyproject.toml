@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallet-sim"
+version = "0.1.0"
+description = "Simulasi aplikasi wallet kripto (edukatif) - derivasi kunci, keystore terenkripsi, dan ledger"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+dependencies = [
+    "mnemonic>=0.21.0",
+    "coincurve>=21.0.0",
+    "base58>=2.1.1",
+    "pycryptodome>=3.23.0",
+    "cryptography>=42.0.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+wallet = "wallet.ui.app:main"
+
+[tool.setuptools.packages.find]
+include = ["wallet*", "bip32*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

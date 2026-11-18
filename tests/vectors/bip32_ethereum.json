@@ -1,0 +1,142 @@
+{
+  "_catatan": "Dihasilkan & diverifikasi pada Fase 0 (2026-10-15). Sumber: vektor publik ethers.js dan BIP32 Test Vector 1 (BIP-0032). JANGAN edit manual - regenerate dengan tests/tools/gen_vectors.py.",
+  "kurva": {
+    "nama": "secp256k1",
+    "order_hex": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141",
+    "half_order_hex": "0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0"
+  },
+  "cases": [
+    {
+      "nama": "vektor-ethers-js",
+      "mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about",
+      "passphrase": "",
+      "checksum_valid": true,
+      "seed_hex": "5eb00bbddcf069084889a8ab9155568165f5c453ccb85e70811aaed6f6da5fc19a5ac40b389cd370d086206dec8aa6c43daea6690f20ad3d8d48b2d2ce9e38e4",
+      "addresses": [
+        {
+          "path": "m/44'/60'/0'/0/0",
+          "private_key": "1ab42cc412b618bdea3a599e3c9bae199ebf030895b039e9db1e30dafb12b727",
+          "public_key_uncompressed": "0437b0bb7a8288d38ed49a524b5dc98cff3eb5ca824c9f9dc0dfdb3d9cd600f299a6179912b7451c09896c4098eca7ce6b2e58330672795e847c4d6af44e024230",
+          "public_key_compressed": "0237b0bb7a8288d38ed49a524b5dc98cff3eb5ca824c9f9dc0dfdb3d9cd600f299",
+          "address": "0x9858effd232b4033e47d90003d41ec34ecaeda94",
+          "address_eip55": "0x9858EfFD232B4033E47d90003D41EC34EcaEda94"
+        },
+        {
+          "path": "m/44'/60'/0'/0/1",
+          "private_key": "9a983cb3d832fbde5ab49d692b7a8bf5b5d232479c99333d0fc8e1d21f1b55b6",
+          "public_key_uncompressed": "049fd0991d0222b4e1339c1a1a5b5f6d9f6a96672a3247b638ee6156d9ea877a2f1735e3a9260940e4c2225c344a8cea6c7b6a6057d0eb90a9a875f446c131031d",
+          "public_key_compressed": "039fd0991d0222b4e1339c1a1a5b5f6d9f6a96672a3247b638ee6156d9ea877a2f",
+          "address": "0x6fac4d18c912343bf86fa7049364dd4e424ab9c0",
+          "address_eip55": "0x6Fac4D18c912343BF86fa7049364Dd4E424Ab9C0"
+        },
+        {
+          "path": "m/44'/60'/0'/0/2",
+          "private_key": "5b824bd1104617939cd07c117ddc4301eb5beeca0904f964158963d69ab9d831",
+          "public_key_uncompressed": "04880bcb4bf46b49bdb071e307e282b11b9166907d9708f8c706092c44743f3e67cf16b2c08d5424a0c8b210b0d8df671a4f455adc49349ca06a1476c029b73847",
+          "public_key_compressed": "03880bcb4bf46b49bdb071e307e282b11b9166907d9708f8c706092c44743f3e67",
+          "address": "0xb6716976a3ebe8d39aceb04372f22ff8e6802d7a",
+          "address_eip55": "0xb6716976A3ebe8D39aCEB04372f22Ff8e6802D7A"
+        }
+      ]
+    },
+    {
+      "nama": "vektor-trezor",
+      "mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about",
+      "passphrase": "TREZOR",
+      "checksum_valid": true,
+      "seed_hex": "c55257c360c07c72029aebc1b53c05ed0362ada38ead3e3e9efa3708e53495531f09a6987599d18264c1e1c92f2cf141630c7a3c4ab7c81b2f001698e7463b04",
+      "addresses": [
+        {
+          "path": "m/44'/60'/0'/0/0",
+          "private_key": "62f1d86b246c81bdd8f6c166d56896a4a5e1eddbcaebe06480e5c0bc74c28224",
+          "public_key_uncompressed": "04986dee3b8afe24cb8ccb2ac23dac3f8c43d22850d14b809b26d6b8aa5a1f47784152cd2c7d9edd0ab20392a837464b5a750b2a7f3f06e6a5756b5211b6a6ed05",
+          "public_key_compressed": "03986dee3b8afe24cb8ccb2ac23dac3f8c43d22850d14b809b26d6b8aa5a1f4778",
+          "address": "0x9c32f71d4db8fb9e1a58b0a80df79935e7256fa6",
+          "address_eip55": "0x9c32F71D4DB8Fb9e1A58B0a80dF79935e7256FA6"
+        },
+        {
+          "path": "m/44'/60'/0'/0/1",
+          "private_key": "49ee230b1605382ac1c40079191bca937fc30e8c2fa845b7de27a96ffcc4ddbf",
+          "public_key_uncompressed": "04462e7b95dab24fe8a57ac897d9026545ec4327c9c5e4a772e5d14cc5422f94896d222a9e8880e41562c41e8290b842679d33c450bb5329caa3f078fbdf9e639d",
+          "public_key_compressed": "03462e7b95dab24fe8a57ac897d9026545ec4327c9c5e4a772e5d14cc5422f9489",
+          "address": "0x7af7283bd1462c3b957e8fac28dc19cbbf2fadfe",
+          "address_eip55": "0x7AF7283bd1462C3b957e8FAc28Dc19cBbF2FAdfe"
+        },
+        {
+          "path": "m/44'/60'/0'/0/2",
+          "private_key": "eef2c0702151930b84cffcaa642af58e692956314519114e78f3211a6465f28b",
+          "public_key_uncompressed": "046650e4b2b8e731a0ef12cda892b70cb95e78ea6e576ba995019b5e9aa7d9c0f53784b545187961f2f0002664bf115163262d987dc5fa9514de3f75f509aa2d73",
+          "public_key_compressed": "036650e4b2b8e731a0ef12cda892b70cb95e78ea6e576ba995019b5e9aa7d9c0f5",
+          "address": "0x05f48e30fcb69adcd2a591ebc7123be8be72d7a1",
+          "address_eip55": "0x05f48E30fCb69ADcd2A591Ebc7123be8BE72D7a1"
+        }
+      ]
+    },
+    {
+      "nama": "vektor-legacy-1",
+      "mnemonic": "trap situate sphere six escape design luggage best wing have like radar",
+      "passphrase": "",
+      "checksum_valid": true,
+      "seed_hex": "97a2163337a79344f4f0422db53780bf2074bcf9f616bb6025b90f4ee7a0e5804ce4fbc0347e2b76ac11f5348c932a45bdce8fe53436084068c784cbee50ecd7",
+      "addresses": [
+        {
+          "path": "m/44'/60'/0'/0/0",
+          "private_key": "5e65605cc094185a0444173b1292a264ec6753ac9f2a1f041382e11ac09aeca3",
+          "public_key_uncompressed": "04ed66e157d8286ef255ab9a5089f3b5c4bce8db6eedac8d3a7e54e5d2bf79190a6198052698c18c0ccbe5a415d63d1521371305a792e6293f31500b1c49484776",
+          "public_key_compressed": "02ed66e157d8286ef255ab9a5089f3b5c4bce8db6eedac8d3a7e54e5d2bf79190a",
+          "address": "0xabf4d0386bb7ed2d7e6e7403e57f5c4b938f1dc9",
+          "address_eip55": "0xAbF4d0386bB7Ed2D7e6e7403E57f5c4b938f1dC9"
+        },
+        {
+          "path": "m/44'/60'/0'/0/1",
+          "private_key": "4b2c5e91cc188ebe8bee45eeef584b3f78343d1815ec6d4049d2a9189cbe7dea",
+          "public_key_uncompressed": "04619691c145e3a2e4b139d346496c59bbffa88a5ea027bde3d88eb7e59f26ab7a953661621cd9eef29cb7b609b261b83af7c38012428bdd7a63e320089fa8a0e8",
+          "public_key_compressed": "02619691c145e3a2e4b139d346496c59bbffa88a5ea027bde3d88eb7e59f26ab7a",
+          "address": "0xffc027ea6d99e9b207bd3643ffff24cb664f853b",
+          "address_eip55": "0xfFc027EA6d99E9B207bD3643FfFf24cB664F853b"
+        },
+        {
+          "path": "m/44'/60'/0'/0/2",
+          "private_key": "85545ba7edd46bd3e6f5905202f9cd66397b6bc58bbe05f80b4240058a222db2",
+          "public_key_uncompressed": "04357e5c9e9abf656022bea7eac6f96a5a64e232bd7fbc91cebe508f20846f3c69c06dc65e5827eafb1655b3de673a7482b7c3a0dbd6e84ad65ae60ca4f00da4d2",
+          "public_key_compressed": "02357e5c9e9abf656022bea7eac6f96a5a64e232bd7fbc91cebe508f20846f3c69",
+          "address": "0xcea64c34702fd1f241aee9bd202a1235bbebb2c0",
+          "address_eip55": "0xcEA64c34702fD1f241AeE9bD202a1235BBEBb2C0"
+        }
+      ]
+    },
+    {
+      "nama": "vektor-legacy-2",
+      "mnemonic": "owner pretty sock zone shed attitude average roof tired monster private old",
+      "passphrase": "",
+      "checksum_valid": true,
+      "seed_hex": "121d6b1adddca41868a7ee84288733485dec3ad4cec2007f9ab0222715c2b73e62c7489fa5b315aa0ba1ae135c845aacb73fcb9776346e391e8bf4d8836e0b8f",
+      "addresses": [
+        {
+          "path": "m/44'/60'/0'/0/0",
+          "private_key": "34d01fe8c96059c03d30b4bcebaa7ee5227ca62e16f787330d9bf7670bc26587",
+          "public_key_uncompressed": "049f0c9b20e9ce4ad2c7fd9fcca7d737f3a9fe0febd16718d49723212fbefff83fcafbe84ac0ad3f5619542559baf8db00fc4c7d532eae92fe25fc7fc930f0244f",
+          "public_key_compressed": "039f0c9b20e9ce4ad2c7fd9fcca7d737f3a9fe0febd16718d49723212fbefff83f",
+          "address": "0x0044ada69ca7347748a580f86a129f02cdfa9017",
+          "address_eip55": "0x0044aDa69CA7347748A580F86a129f02CdFA9017"
+        },
+        {
+          "path": "m/44'/60'/0'/0/1",
+          "private_key": "b22c457c89dbde208356b9d7605df212898f423dfa61fa7b1626990836e47031",
+          "public_key_uncompressed": "0465d61e19edeec44e7fd3eb63fceb2b1e5353a73a598f5575d63037ba1d12cc9783cad2ab743aca98f9431b97680149e936ff9202975812f91c21283e32ab8ad6",
+          "public_key_compressed": "0265d61e19edeec44e7fd3eb63fceb2b1e5353a73a598f5575d63037ba1d12cc97",
+          "address": "0xcec972366cdb22ce85c24d219029942343bdbd49",
+          "address_eip55": "0xCeC972366CDb22CE85c24D219029942343bDBD49"
+        },
+        {
+          "path": "m/44'/60'/0'/0/2",
+          "private_key": "c72cfd29d24b2643d1f1660a83e3a9a7f9c01e2ece6ad672c83061a621beae74",
+          "public_key_uncompressed": "04af09a1f6c062e8a91d1469ce71393c0b82a6450fe9b8879fc8bc71111a5f3bd5e308e868aa41879f5e5712f4f1032f98c19c4705221a983cf61ffe9a6c2f0b0b",
+          "public_key_compressed": "03af09a1f6c062e8a91d1469ce71393c0b82a6450fe9b8879fc8bc71111a5f3bd5",
+          "address": "0x2ee66a8c0e9a8dc4b82a63f514b52d067b33f5de",
+          "address_eip55": "0x2ee66A8c0E9a8Dc4b82a63f514b52D067b33F5DE"
+        }
+      ]
+    }
+  ]
+}
