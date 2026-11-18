@@ -82,17 +82,4 @@ wallet/
 │   └── node.py        # façade: submit / commit / balance
 ├── pricing.py         # CoinMarketCap (opsional)
 └── ui/                # console, app, views
-
-data/                  # runtime (gitignored)
-├── index.json         # daftar wallet
-├── keystores/         # <address>.json, terenkripsi
-└── ledger.json
 ```
-
-## Riwayat
-
-`_archive/` berisi implementasi versi lama beserta catatan bug-nya. Tidak di-versioned.
-
-## Lisensi
-
-MIT — untuk pembelajaran.
