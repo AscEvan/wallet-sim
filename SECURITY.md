@@ -2,13 +2,12 @@
 
 ## Proyek ini adalah simulasi
 
-Tujuan proyek ini adalah **pemahaman edukatif** tentang bagaimana dompet kripto bekerja:
+Tujuan proyek ini adalah **edukatif** tentang bagaimana dompet kripto bekerja:
 derivasi kunci, enkripsi, penandatanganan, dan ledger. Ini **bukan** implementasi
 dompet yang aman untuk dana sungguhan.
 
-## Jangan gunakan untuk dana nyata
 
-Hal-hal berikut **tidak** diimplementasikan:
+Hal-hal ini **tidak** diimplementasikan:
 
 - **Proteksi brute-force yang sesungguhnya.** Pembatasan percobaan login hanya ada di
   memori proses; bisa di-reset dengan menutup aplikasi.
@@ -39,4 +38,4 @@ Meskipun tidak untuk produksi, kode ini mengikuti praktik yang benar dan layak d
 ## Yang perlu ditambahkan untuk produksi
 
 Hardening keystore, audit kriptografi independen, perlindungan side-channel, pengujian
-fuzzing, dan audit keamanan formal. Semua itu di luar cakupan proyek edukatif ini.
+fuzzing, dan audit keamanan formal. Semua beradi di luar cakupan proyek ini.
